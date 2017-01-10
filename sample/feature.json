@@ -1,0 +1,23 @@
+[
+    {
+        "name": "android_main_welcome",
+        "conditions": [
+            {
+                "name": "operator-condition",
+                "key": "locale",
+                "operator": {
+                    "name": "in-set",
+                    "values": [
+                        "zh-CN"
+                    ]
+                }
+            }
+        ],
+        "status": "conditionally-active",
+        "strategy": "afformative"
+    },
+    {
+        "name": "android_main_hello",        
+        "status": "inactive"
+    }
+]

@@ -46,6 +46,32 @@ You can also specify a default value if the flag is not found or an error happen
 ```java
 Flaggr.with(this).isActive(getString(R.string.my_flag), builder.build(), true);
 ```
+3 - JSON 
+```json
+[
+    {
+        "name": "android_main_welcome",
+        "conditions": [
+            {
+                "name": "operator-condition",
+                "key": "locale",
+                "operator": {
+                    "name": "in-set",
+                    "values": [
+                        "zh-CN"
+                    ]
+                }
+            }
+        ],
+        "status": "conditionally-active",
+        "strategy": "afformative"
+    },
+    {
+        "name": "android_main_hello",        
+        "status": "inactive"
+    }
+]
+```
 
 ## License
 ```
