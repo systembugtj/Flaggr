@@ -35,6 +35,10 @@ public class SampleFlagContext implements FlagContextInterface<String> {
             properties.put("locale", locale);
             return this;
         }
+        public FlagContextBuilder setUserid(String locale) {
+            properties.put("userid", locale);
+            return this;
+        }
     }
 
 

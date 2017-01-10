@@ -18,7 +18,7 @@ def repo_context_url = hasProperty('artifactory_context_url') ? artifactory_cont
 def repo_username = hasProperty('artifactory_username') ? artifactory_username : System.getenv('artifactory_username')
 def repo_password = hasProperty('artifactory_password') ? artifactory_password : System.getenv('artifactory_password')
 def repo_key = hasProperty('artifactory_key') ? artifactory_key : System.getenv('artifactory_key')
-def VERSION_NAME = System.getenv('BUILD_NUMBER') ? System.getenv('BUILD_NUMBER') : "0.3.1"
+def VERSION_NAME = System.getenv('BUILD_NUMBER') ? System.getenv('BUILD_NUMBER') : "1.0.0"
 
 android {
     compileSdkVersion 25
@@ -26,7 +26,7 @@ android {
 
     defaultConfig {
 
-        minSdkVersion 19
+        minSdkVersion 16
         targetSdkVersion 25
         versionCode 2
         versionName "0.3.1 "
