@@ -1,11 +1,15 @@
-# Flaggr
+# Flaggr (Repackage and customization)
 
 A library that allows you to enable/disable features and/or part of code regarding a Context
+
+## 1.2.0
+
+Add consumerProguardFiles to keep gson related class.
 
 ## How to include it
 
 ```groovy
-compile 'com.comuto:flaggr:0.3.1'
+compile 'com.github.systembugtj:flaggr:1.2.0'
 ```
 
 ## How to use it 

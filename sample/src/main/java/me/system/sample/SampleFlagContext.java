@@ -1,6 +1,6 @@
 package me.system.sample;
 
-import com.comuto.flag.model.FlagContextInterface;
+import com.comuto.flag.context.FlagContextInterface;
 
 import java.util.HashMap;
 import java.util.Map;

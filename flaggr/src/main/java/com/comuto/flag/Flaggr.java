@@ -8,7 +8,7 @@ import android.text.TextUtils;
 import android.util.Log;
 
 import com.comuto.flag.model.Flag;
-import com.comuto.flag.model.FlagContextInterface;
+import com.comuto.flag.context.FlagContextInterface;
 
 import java.util.HashMap;
 import java.util.List;

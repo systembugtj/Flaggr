@@ -1,7 +1,7 @@
 package com.comuto.flag.strategy;
 
 import com.comuto.flag.model.Flag;
-import com.comuto.flag.model.FlagContextInterface;
+import com.comuto.flag.context.FlagContextInterface;
 
 /**
  * An Interface for Strategy

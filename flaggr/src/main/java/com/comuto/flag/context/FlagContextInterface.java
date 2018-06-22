@@ -1,4 +1,4 @@
-package com.comuto.flag.model;
+package com.comuto.flag.context;
 
 import java.util.Map;
 
